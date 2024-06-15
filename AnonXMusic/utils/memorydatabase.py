@@ -299,7 +299,7 @@ async def is_cleanmode_on(chat_id: int) -> bool:
     if chat_id not in cleanmode:
         return True
     else:
-        return False
+        return True
 
 
 async def cleanmode_off(chat_id: int):
